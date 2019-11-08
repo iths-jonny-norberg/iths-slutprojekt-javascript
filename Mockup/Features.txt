@@ -1,0 +1,15 @@
+Features:
+---------------
+
+Animate on scroll
+Parallax scrolling
+JS-music player
+JS-modal
+JS contact form
+JS-Lightbox
+
+Maybe:
+--------
+
+JSON object data
+Soundcloud API

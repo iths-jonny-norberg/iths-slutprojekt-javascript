@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh; 
+    background-color: #cbcac8; 
+  }
+
+  .section1 {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #cbcac8;
+    background: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
+  .Top {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    text-align: center;
+  }
+
+  .Menu {
+    width: 94%;
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+    text-align: right;
+  }
+
+  .space-top {
+    padding: 0;
+    margin: 0;
+    height: 100px;
+    background-color: blue;
+  }
+
+  .grid-main {
+    padding: 0;
+    margin: 0 auto;
+    width: 94%;
+    height: 60vh;
+    display: flex;
+  }
+
+  .grid-main-one {
+    padding: 0;
+    margin: 0 auto;
+    width: 50%;
+
+  }
+
+  .grid-main-two {
+    padding: 0;
+    margin: 0 auto;
+    width: 50%;
+    justify-content: right;
+    text-align: right;
+
+  }
+
+  h1 {
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 8%;
+    font-family: 'Abril Fatface', cursive;
+    text-decoration: underline;
+    color: black;
+    font-style: italic;
+    font-size: 6.7em;
+  }
+
+  .topTxt {
+    padding: 0;
+    margin-top: 5%;
+    margin-left: 30%;
+    font-family: 'Dosis', sans-serif;
+    text-decoration: underline;
+    color: black;
+    font-style: italic;
+    font-size: 2.4em;
+  }
+
+  .imgSize {
+
+      width: 100%;
+  }
+
+
+  .section2 {
+    background: url(../img/diagonal.svg);
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    
+  }
+
+  .s2Txt {
+    padding: 0;
+    margin-top: 8%;
+    margin-right: 30%;
+    font-family: 'Dosis', sans-serif;
+    text-decoration: underline;
+    color: black;
+    font-style: italic;
+    font-size: 2.4em;
+  }
