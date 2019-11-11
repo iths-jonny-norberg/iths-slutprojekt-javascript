@@ -5,12 +5,14 @@
   }
 
   body {
+    background-color: blueviolet;
     font-size: 100%;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     height: 100vh; 
     background-color: #cbcac8; 
+    overflow-x: hidden;
   }
 
   .section1 {
@@ -18,7 +20,7 @@
     margin: 0;
     height: 100vh;
     box-sizing: border-box;
-    background-color: #cbcac8;
+    background-color: #ce9523;
     background: url(../img/bg.jpg);
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -61,6 +63,7 @@
   }
 
   .grid-main-one {
+
     padding: 0;
     margin: 0 auto;
     width: 50%;
@@ -77,10 +80,33 @@
 
   }
 
+  .grid-main-three {
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    font-size: 100%;
+
+  }
+
+
+
   h1 {
     padding: 0;
     margin: 0 auto;
     margin-top: 8%;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    text-decoration: underline;
+    color: black;
+    font-style: italic;
+    font-size: 6.5em;
+    -webkit-text-size-adjust: none;
+  }
+
+  .uih1 {
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 3%;
     font-family: 'Playfair Display', serif;
     font-weight: bold;
     text-decoration: underline;
@@ -101,6 +127,17 @@
     font-size: 2.4em;
   }
 
+  .topTxt2 {
+    padding: 0;
+    margin-top: 3%;
+    margin-left: 25%;
+    font-family: 'Dosis', sans-serif;
+    text-decoration: underline;
+    color: black;
+    font-style: italic;
+    font-size: 2.4em;
+  }
+
   .imgSize {
 
       width: 100%;
@@ -108,6 +145,7 @@
 
 
   .section2 {
+    background-color: #ce9523;
     background: url(../img/diagonal.svg);
     padding: 0;
     margin: 0;
@@ -115,6 +153,31 @@
     box-sizing: border-box;
     
   }
+
+  .section3 {
+    background: url(../img/ui-bg.jpg);
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+  }
+
+  .section3over {
+    background: url(../img/diagonal2.png);
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    box-sizing: border-box;
+    
+  }
+
+ 
 
   .s2Txt {
     padding: 0;
@@ -126,3 +189,110 @@
     font-style: italic;
     font-size: 2.4em;
   }
+
+  .section4 {
+    background: url(../img/cv-bg.jpg);
+    background-repeat: no-repeat;
+
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 0;
+
+    box-sizing: border-box;
+    
+  }
+
+  /* RESUME STYLES  */
+
+  .resumeh1 {
+    width: 15%;
+    padding: 0px 0px 10px 10px;
+    margin: 0 auto;
+    margin-top: 0%;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    text-decoration: underline;
+    color: white;
+    background-color: black;
+    font-style: italic;
+    font-size: 2.5em;
+    -webkit-text-size-adjust: none;
+  }
+
+  .grid-main-resume {
+    padding: 0;
+    margin: 0 auto;
+    width: 94%;
+    height: 60vh;
+    display: flex;
+  }
+
+  .grid-main-one-resume {
+
+    padding: 0;
+    margin: 75px auto;
+    width: 50%;
+    font-size: 100%;
+    align-items: flex-start;
+    text-align: left;
+
+  }
+
+  .grid-main-two-resume {
+
+    padding: 0;
+    margin: 75px auto;
+    width: 50%;
+    font-size: 100%;
+    align-items: flex-start;
+    text-align: left;
+
+  }
+
+  .grid-main-three-resume {
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    font-size: 100%;
+
+  }
+
+  h4 {
+    padding: 0;
+    padding-bottom: 20px;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #5c0a58;
+
+    font-style: italic;
+    font-size: 2.5em;
+    -webkit-text-size-adjust: none;
+  }
+
+  .year {
+    padding: 0;
+    margin-top: 0%;
+    margin-left: 0%;
+    font-family: 'Dosis', sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
+    color: crimson;
+    font-style: italic;
+    font-size: 2em;
+  }
+
+  .txtResume {
+    padding: 5px 0px 15px 0px;
+    margin-top: 0%;
+    margin-left: 0%;
+    font-family: 'Dosis', sans-serif;
+    text-decoration: underline;
+    color: #5c0a58;
+    font-style: italic;
+    font-size: 1.4em;
+  }
+
+  
