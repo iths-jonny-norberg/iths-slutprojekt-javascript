@@ -5,6 +5,7 @@
   }
 
   body {
+    font-size: 100%;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -48,12 +49,12 @@
     padding: 0;
     margin: 0;
     height: 100px;
-    background-color: blue;
+
   }
 
   .grid-main {
     padding: 0;
-    margin: 0 auto;
+    margin: 100px auto;
     width: 94%;
     height: 60vh;
     display: flex;
@@ -63,6 +64,7 @@
     padding: 0;
     margin: 0 auto;
     width: 50%;
+    font-size: 100%;
 
   }
 
@@ -79,11 +81,13 @@
     padding: 0;
     margin: 0 auto;
     margin-top: 8%;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
     text-decoration: underline;
     color: black;
     font-style: italic;
-    font-size: 6.7em;
+    font-size: 6.5em;
+    -webkit-text-size-adjust: none;
   }
 
   .topTxt {
