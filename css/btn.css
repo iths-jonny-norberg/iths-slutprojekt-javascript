@@ -104,3 +104,55 @@ a:hover{
 a:hover:after{
   width: 100%;
 }
+
+
+/* BTN */
+
+.Btn{
+  display: block;
+  width: 15%;
+  height: 8%;
+  margin: 3% auto;
+  padding: 0% 0% 0.6% 0%;
+  font-size: 2rem;
+  font-family: 'Dosis', sans-serif;
+  text-decoration: underline;
+  color: #fff;
+  background: #0590e0;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+}
+
+.Btn {
+  justify-content: center;
+  text-align: center;
+  font-size: 1.5rem;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+a span{
+  position: relative;
+  z-index: 2;
+}
+
+a.Btn:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #570b53;
+  transition: all .35s;
+}
+
+a:hover{
+  color: #fff;
+}
+
+a:hover:after{
+  width: 100%;
+}
