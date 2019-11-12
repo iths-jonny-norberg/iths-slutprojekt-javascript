@@ -1,0 +1,53 @@
+.wrapper{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+a{
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 1.1rem;
+  font-family: 'Dosis', sans-serif;
+  text-decoration: none;
+  color: #fff;
+  background: #ff003b;
+
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+}
+
+.logo {
+  font-size: 2rem;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+a span{
+  position: relative;
+  z-index: 2;
+}
+
+a:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #570b53;
+  transition: all .35s;
+}
+
+a:hover{
+  color: #fff;
+}
+
+a:hover:after{
+  width: 100%;
+}

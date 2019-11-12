@@ -1,0 +1,106 @@
+
+/* Top logo */
+
+.logoA{
+  display: block;
+  width: 15%;
+  height: 8%;
+  margin: auto;
+  padding: 0% 0% 0.6% 0%;
+  font-size: 2rem;
+  font-family: 'Dosis', sans-serif;
+  text-decoration: underline;
+  color: #fff;
+  background: #ff003b;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+}
+
+.logo {
+  justify-content: center;
+  text-align: center;
+  font-size: 2rem;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+a span{
+  position: relative;
+  z-index: 2;
+}
+
+a.logoA:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #570b53;
+  transition: all .35s;
+}
+
+a:hover{
+  color: #fff;
+}
+
+a:hover:after{
+  width: 100%;
+}
+
+
+
+/* Resume */
+
+
+.resumeA {
+  display: block;
+  width: 15%;
+  height: 8%;
+  margin: auto;
+  padding: 0% 0% 0.6% 0%;
+  font-size: 2rem;
+  font-family: 'Playfair Display', serif;
+  text-decoration: underline;
+  color: #fff;
+  background: #570b53;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+}
+
+.resume {
+  justify-content: center;
+  text-align: center;
+  font-size: 2rem;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+a span{
+  position: relative;
+  z-index: 2;
+}
+
+a.resumeA:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #ff003b;
+  
+  transition: all .35s;
+}
+
+a:hover{
+  color: #fff;
+}
+
+a:hover:after{
+  width: 100%;
+}
