@@ -1,0 +1,7 @@
+change bg color
+
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_css_bgcolor
+
+----theme
+
+https://zocada.com/dark-and-light-theme-switcher-using-css-variables-and-pure-javascript/
