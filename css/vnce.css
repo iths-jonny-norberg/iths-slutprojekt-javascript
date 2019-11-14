@@ -486,7 +486,11 @@
   }
 
   .workSpace {
+    width: 94%;
     text-align: center;
+    display: flex;
+    margin: auto;
+    padding: 0;
   }
 
   .s6Btn-space {
